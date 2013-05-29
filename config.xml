@@ -3,14 +3,15 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
 	id      = "com.mywebsoft"  
     version     = "1.1.1"> <!-- 注释：应用版本--> 
-    <name>意大利</name><!-- 注释：应用名称，显示在移动终端桌面上和应用Logo一起 --> 
-    <description>意大利</description> 
+    <name>Frace</name><!-- 注释：应用名称，显示在移动终端桌面上和应用Logo一起 --> 
+    <description>Frace</description> 
     <author href="http://www.mywebsoft.com" email="pangszhk@gmail.com">mywebsoft</author>
     <gap:platforms> <!-- 注释：支持平台 -->
         <gap:platform name="android" minVersion="2.1" />
     </gap:platforms>
     <icon src="icons/logo.png" gap:role="default" /> <!-- 注释：应用Logo，显示在移动终端桌面上和应用名称一起 -->
     <gap:splash src="icons/loading.jpg"/> <!-- 注释： 程序启动时显示图像-->
+	<preference name="phonegap-version" value="2.7.0" />
     <!--  程序需使用的Anbdroid权限 -->
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
